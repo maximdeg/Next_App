@@ -1,6 +1,9 @@
 import { formatDate } from "@/lib/utils";
 import { EyeIcon, Image, Link } from "lucide-react";
+import { Author, Startup } from "@/sanity/types";
 import { Button } from "./ui/button";
+
+export type StartupTypeCard = Omit<Startup, "author"> & { author?: Author };
 
 const StartupCard = ({ post }: { post: StartupTypeCard }) => {
   const {
@@ -35,9 +38,9 @@ const StartupCard = ({ post }: { post: StartupTypeCard }) => {
         </div>
 
         <Link href={`/user/${authorId}`}>
-          <Image
-            src="https://placehold.co/48x48"
-            alt="placeholder"
+          <img
+            src={image}
+            alt={name}
             width={48}
             height={48}
             className="rounded-full"
