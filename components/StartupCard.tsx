@@ -1,5 +1,6 @@
 import { formatDate } from "@/lib/utils";
-import { EyeIcon, Image, Link } from "lucide-react";
+import { EyeIcon } from "lucide-react";
+import Link from "next/link";
 import { Button } from "./ui/button";
 // import { Author, Startup } from "@/sanity/types";
 
@@ -7,6 +8,8 @@ import { Button } from "./ui/button";
 export type StartupTypeCard = any;
 
 const StartupCard = ({ post }: { post: StartupTypeCard }) => {
+  post._createdAt = new Date("2025-01-15");
+
   const {
     _createdAt,
     views,

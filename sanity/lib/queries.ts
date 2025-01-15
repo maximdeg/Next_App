@@ -6,7 +6,7 @@ export const STARTUPS_QUERY =
   title,
   slug,
   author -> {
-    _id, name, slug, image, bio
+    _id, name, image, bio
     },
     views,
     description,
