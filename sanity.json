@@ -1,5 +1,10 @@
 {
   "projectId": "9z9x6yiv",
   "dataset": "production",
-  "token": "skirE84eBl2pmmiV9PMWh5c2wjQm9MPkojOWFNPpKqXo3KA35PCACVEtiDkkZQ48V8bThBCPPFVtLHZxAzNZW3qzsSC8PLHVA732PSl57AzQ4kXEbaaPYLjzrTG3FCWyaS6XdwhBXONRlXvUYhHnBuiwQ5q4TTS3vHxNniao0385N7d19WJG"
+  "token": "sk1jnHEAL6j5r7fYlXc496jcFOcNkQ2wJLHRXA9gxgEO8rpV98tVUQEV5hdm9uNj6LTumedIbduiOTzhgbofSnXv9cYixRe9KkgvnhOErdRT2GoR21q2rqu7dRvUsoug6Xk3GxHDdtC2tj6NPpeu86wJpHwxw1a5rL8NzzRfCIV9KKZ6CYCf",
+  "implements": "part:@sanity/desk-tool/panes/document-list",
+  "options": {
+    "serverToken": "sk1jnHEAL6j5r7fYlXc496jcFOcNkQ2wJLHRXA9gxgEO8rpV98tVUQEV5hdm9uNj6LTumedIbduiOTzhgbofSnXv9cYixRe9KkgvnhOErdRT2GoR21q2rqu7dRvUsoug6Xk3GxHDdtC2tj6NPpeu86wJpHwxw1a5rL8NzzRfCIV9KKZ6CYCf",
+    "browserToken": "skznucpSclLi5Fm3TBMCBRHrZcQ20HMAwY7FotMP3z7hVIBaAp7NF6LslaaKF5AuQbsrDRwrWcttIoxp6Q8QLlObAPjROipm8DzoY1JGisrbW6VHEGfya0CN2jJ5kJPrCLdL5HjAIJEPnkqzX4zuDL0jWIXBTvhgT6CcVQ0Fr5u8wEoErtWW"
+  }
 }
