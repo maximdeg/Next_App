@@ -7,4 +7,4 @@ export const client = createClient({
   dataset,
   apiVersion,
   useCdn: false, // Set to false if statically generating pages, using ISR or tag-based revalidation
-});
+} as Parameters<typeof createClient>[0]);
